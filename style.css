@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Maragsa-Display;
+    src: url(Assets/Maragsa-Display.otf);
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.horror-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.horror-grid video {
+    width: 100%
+}
+
+.horror-header {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Maragsa-Display';
+    font-size: 80px;
+    padding: 40px 40px
+}
